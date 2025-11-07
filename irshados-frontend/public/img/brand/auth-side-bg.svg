@@ -1,0 +1,42 @@
+<!-- IrshadOS Login Side Image (904×1033) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="904" height="1033" viewBox="0 0 904 1033">
+  <defs>
+    <!-- Left-to-right gradient from Primary to Deep Navy -->
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+    <style>
+      .wm { opacity: .16; }  /* watermark opacity */
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="904" height="1033" fill="url(#g)"/>
+
+  <!-- Big watermark logomark (size≈700) -->
+  <g class="wm" transform="translate(-40,140)">
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+      <!-- circle: r=238, cx=406, cy=364, stroke≈66 -->
+      <circle cx="406" cy="364" r="238" stroke-width="66"
+              stroke-dasharray="1288.2 207.4" stroke-dashoffset="373.9"/>
+    </g>
+    <!-- power line -->
+    <rect x="392" y="268.8" width="28" height="127" rx="14" fill="#FFFFFF"/>
+    <!-- “I” pillar -->
+    <rect x="124" y="167" width="60" height="393" rx="30" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Small solid logomark in top-right (size≈200) -->
+  <g transform="translate(644,70)">
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+      <circle cx="116" cy="104" r="68" stroke-width="19"
+              stroke-dasharray="392.7 61.0" stroke-dashoffset="98.2"/>
+    </g>
+    <rect x="108" y="76" width="8" height="36" rx="4" fill="#FFFFFF"/>
+    <rect x="48"  y="55" width="18" height="112" rx="9" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Bottom accent ribbon -->
+  <rect x="0" y="913" width="904" height="120" fill="#22C55E" opacity=".92"/>
+</svg>

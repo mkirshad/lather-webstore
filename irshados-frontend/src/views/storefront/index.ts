@@ -1,0 +1,6 @@
+export { default as StoreLanding } from './StoreLanding'
+export { default as CollectionsView } from './CollectionsView'
+export { default as ProductDetailView } from './ProductDetailView'
+export { default as JournalView } from './JournalView'
+export { default as AboutView } from './AboutView'
+export { default as ContactView } from './ContactView'

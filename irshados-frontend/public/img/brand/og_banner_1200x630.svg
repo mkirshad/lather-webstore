@@ -1,0 +1,30 @@
+<!-- IrshadOS OG Image (1200×630) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+    <style>
+      :root { --primary:#FFFFFF; --muted:#CBD5E1; }
+      .ttl { font: 92px "Inter","Poppins","Segoe UI","Roboto","Arial",sans-serif; fill: var(--primary); }
+      .sub { font: 44px "Inter","Poppins","Segoe UI","Roboto","Arial",sans-serif; fill: var(--muted); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#g2)"/>
+
+  <!-- White icon -->
+  <g transform="translate(70,90)">
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+      <circle cx="210" cy="225" r="160" stroke-width="45"
+              stroke-dasharray="1005.3 162.8" stroke-dashoffset="251.3"/>
+    </g>
+    <rect x="202" y="180" width="20" height="86.7" rx="10" fill="#FFFFFF"/>
+    <rect x="82" y="130" width="40" height="264" rx="20" fill="#FFFFFF"/>
+  </g>
+
+  <text x="480" y="250" class="ttl" dominant-baseline="middle">IrshadOS</text>
+  <text x="480" y="330" class="sub" dominant-baseline="middle">Retail &amp; Wholesale OS — Inventory • Sales • POS</text>
+  <text x="480" y="410" class="sub" dominant-baseline="middle">Multi-warehouse • Price Lists • Batches • Analytics</text>
+</svg>

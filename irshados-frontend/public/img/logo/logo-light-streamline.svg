@@ -1,0 +1,22 @@
+<!-- IrshadOS Logomark (icon-only) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      :root {
+        --primary: #2563EB; /* Irshad Blue */
+      }
+    </style>
+  </defs>
+  <!-- Power ring with a top gap -->
+  <g fill="none" stroke="var(--primary)" stroke-linecap="round">
+    <!-- circle with dash to create the gap at top (≈50°) -->
+    <circle cx="580" cy="520" r="340" stroke-width="95"
+            stroke-dasharray="1839.6 296.7" stroke-dashoffset="534.1"/>
+  </g>
+
+  <!-- Power line (inside the gap) -->
+  <rect x="560" y="384" width="40" height="181.3" rx="20" fill="var(--primary)"/>
+
+  <!-- The “I” pillar on the left -->
+  <rect x="177" y="239.5" width="86" height="561" rx="43" fill="var(--primary)"/>
+</svg>

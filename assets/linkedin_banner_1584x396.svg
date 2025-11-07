@@ -1,0 +1,37 @@
+<!-- IrshadOS LinkedIn Banner (1584×396) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#F9FAFB"/>
+      <stop offset="100%" stop-color="#E5E7EB"/>
+    </linearGradient>
+    <style>
+      :root {
+        --primary: #2563EB; --text: #111827; --muted:#64748B;
+      }
+      .h1 { font: 84px "Inter","Poppins","Segoe UI","Roboto","Arial",sans-serif; fill: var(--text); }
+      .p  { font: 38px "Inter","Poppins","Segoe UI","Roboto","Arial",sans-serif; fill: var(--muted); }
+      .name { font: 110px "Inter","Poppins","Segoe UI","Roboto","Arial",sans-serif; fill: #111111; }
+      .tag  { font: 44px  "Inter","Poppins","Segoe UI","Roboto","Arial",sans-serif; fill: #94A3B8; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#g)"/>
+
+  <!-- Icon (left) -->
+  <g transform="translate(80,28)">
+    <g fill="none" stroke="var(--primary)" stroke-linecap="round">
+      <circle cx="148" cy="170" r="112" stroke-width="32"
+              stroke-dasharray="528.8 85.3" stroke-dashoffset="132.2"/>
+    </g>
+    <rect x="142" y="126" width="14" height="59.7" rx="7" fill="var(--primary)"/>
+    <rect x="46" y="88" width="28" height="184.8" rx="14" fill="var(--primary)"/>
+  </g>
+
+  <!-- Text block -->
+  <text x="360" y="150" class="name" dominant-baseline="middle">IrshadOS</text>
+  <text x="360" y="215" class="tag"  dominant-baseline="middle">Retail &amp; Wholesale OS — Inventory • Sales • POS</text>
+  <text x="360" y="300" class="h1"  dominant-baseline="middle">Inventory • Purchases • POS • AR</text>
+  <text x="360" y="350" class="p"   dominant-baseline="middle">Multi-warehouse, price lists, batches, analytics</text>
+</svg>
